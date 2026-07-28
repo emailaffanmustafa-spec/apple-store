@@ -2,16 +2,28 @@ header{
     font-family: Segoe UI Semibold;
     text-align: center;
     background-color: whitesmoke;
+}
 
-}
-.i{
-    color: black;
-    align-items: center;
-}
+html
+
 *{
     background-color: ghostwhite;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: ARIAL,sans-serif;
+    background-color: #f5f5f7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+
 }
 
 div{
@@ -19,6 +31,49 @@ div{
 }
 
 nav{
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+nav.logo{
+    color: white;
+    font-size: 25px;
+}
+
+nav.a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: #aaa;
+}
+
+h1{
+    padding-top: 15px; ;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+}
+footer{
     background-color: black;
     text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 14Px;
+}
+
+footer a{
+    color: #333;
+    text-decoration: none;
+    margin: 0 8px;
+}
+footer a:hover{
+    text-decoration: underline;
+
 }
