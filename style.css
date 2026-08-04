@@ -82,15 +82,34 @@ h2{
     font-size: 30px;
 }
 
-.img_1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.iphone-section{
+    position: relative;
+    width: 100%;
 }
 
-.img_1 img {
-    position: fixed;
+.iphone-section img{
+    width: 100%;
+    display: block;
+}
 
+.hero-text{
+    position: absolute;
+    top: 8%;              /* Adjust this value */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+.hero-text h2{
+    font-size: 30px;
+    margin-top: 10px;
 }
 
 *
