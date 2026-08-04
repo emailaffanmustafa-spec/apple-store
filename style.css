@@ -41,6 +41,7 @@ nav {
 }
 
 
+
 /* Navbar Lists */
 nav ul {
     list-style: none;
@@ -49,7 +50,7 @@ nav ul {
     font-family: Segoe UI Semibold;
     text-align: center;
     line-height: 50px;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 /* Navbar Links */
@@ -70,20 +71,28 @@ h1{
     font-family: Segoe UI Semibold;
     text-align: center;
     margin-top: 15px;
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 60px;
 }
 
 h2{
     font-family: Segoe UI Semibold;
     text-align: center;
-    font-weight: 50px;
+    font-weight: 50;
     font-size: 30px;
 }
 
-img{
+.img_1 {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+.img_1 img {
+    position: fixed;
+
+}
+
 *
 {
    padding: 0%;
