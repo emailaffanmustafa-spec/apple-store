@@ -11,7 +11,7 @@ header{
 }
 
 div a i{
-    color: black;
+    color: white;
 }
 
 .container{
@@ -33,7 +33,7 @@ nav {
     align-items: center;
     gap: 28px;
 
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 
@@ -56,7 +56,7 @@ nav ul {
 /* Navbar Links */
 nav ul li a {
     text-decoration: none;
-    color: #1d1d1f;
+    color: whitesmoke;
     font-family: Arial, sans-serif;
     font-size: 12px;
     transition: color 0.25s ease;
@@ -64,52 +64,117 @@ nav ul li a {
 
 /* Hover Effect */
 nav ul li a:hover {
-    color: rgba(0, 0, 0, 0.438);
+    color: grey;
 }
 
 h1{
     font-family: Segoe UI Semibold;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 50px;
     font-weight: 300;
     font-size: 60px;
 }
 
 h2{
-    font-family: Segoe UI Semibold;
+    font-family: ARIAL;
     text-align: center;
     font-weight: 50;
     font-size: 30px;
+    word-spacing: 0%;
 }
 
 .iphone-section{
+    /* width:100%;
+    background:#f5f5f7;
+    overflow:hidden; */
+
     position: relative;
-    width: 100%;
+    height: 570px;
+    overflow: hidden;
+
 }
 
 .iphone-section img{
-    width: 100%;
-    display: block;
+    /* width: 220%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+
+    width: 220%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: 1;
+
 }
 
+
 .hero-text{
+    /* position:absolute;
+    top:45px;
+    left:50%;
+    transform:translateX(-50%);
+    text-align:center;
+    width:100%;
+    z-index:10; */
+
     position: absolute;
-    top: 8%;              /* Adjust this value */
+    top: 3px;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
     text-align: center;
     z-index: 2;
-    width: 100%;
+
 }
 
 .hero-text h1{
-    font-size: 60px;
-    margin: 0;
+    font-size:56px;
+    font-family:"Segoe UI Semibold";
+    color:#1d1d1f;
+    margin-bottom:5px;
 }
 
 .hero-text h2{
-    font-size: 30px;
-    margin-top: 10px;
+    font-size:28px;
+    font-weight:400;
+    color:#1d1d1f;
+    margin-bottom:18px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:10px 22px;
+    border-radius:30px;
+    font-size:17px;
+    font-family:Arial;
+}
+
+.blue{
+    background:#0071e3;
+    color:white;
+}
+
+.white{
+    border:1px solid #0071e3;
+    color:#0071e3;
+    background:white;
+}
+
+.blue:hover{
+    background:#0077ed;
+}
+
+.white:hover{
+    background:#0071e3;
+    color:white;
 }
 
 *
