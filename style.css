@@ -89,7 +89,7 @@ h2{
     overflow:hidden; */
 
     position: relative;
-    height: 570px;
+    height: 650px;
     overflow: hidden;
 
 }
@@ -110,15 +110,7 @@ h2{
 }
 
 
-.hero-text{
-    /* position:absolute;
-    top:45px;
-    left:50%;
-    transform:translateX(-50%);
-    text-align:center;
-    width:100%;
-    z-index:10; */
-
+.hero-text-1{
     position: absolute;
     top: 3px;
     left: 50%;
@@ -126,17 +118,16 @@ h2{
     width: 100%;
     text-align: center;
     z-index: 2;
-
 }
 
-.hero-text h1{
+.hero-text-1 h1{
     font-size:56px;
     font-family:"Segoe UI Semibold";
     color:#1d1d1f;
     margin-bottom:5px;
 }
 
-.hero-text h2{
+.hero-text-1 h2{
     font-size:28px;
     font-weight:400;
     color:#1d1d1f;
@@ -175,6 +166,61 @@ h2{
 .white:hover{
     background:#0071e3;
     color:white;
+}
+
+/* .ipad-card{
+    width:680px;
+    height:580px;
+    background:linear-gradient(to bottom,#cfeeff,#ffffff);
+    position:relative;
+    overflow:hidden;
+}
+
+.ipad-card img{
+    position:absolute;
+    width:90%;
+    left: 250px;;
+    bottom:10px;
+    transform:translateX(-50%);
+} */
+
+.ipad-card{
+    width: 630px;
+    height: 600px;
+    position:relative;
+    overflow:hidden;
+    background:linear-gradient(to bottom,#cfeeff,#ffffff);
+    margin:13px ;
+}
+
+.ipad-card img{
+    position:absolute;
+    width:207.3%;
+    left:50%;
+    right: none;
+    bottom:0;
+    transform:translateX(-50%);
+}
+.hero-text-2{
+    position:absolute;
+    top:3px;
+    left:50%;
+    transform:translateX(-50%);
+    text-align:center;
+    width:100%;
+    z-index:5;
+}
+
+.hero-text-2 h1{
+    font-size:42px;
+    font-family:"Segoe UI Semibold";
+    margin-bottom:8px;
+}
+
+.hero-text-2 h2{
+    font-size:22px;
+    font-weight:400;
+    margin-bottom:18px;
 }
 
 *
