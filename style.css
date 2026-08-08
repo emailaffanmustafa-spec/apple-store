@@ -1,20 +1,20 @@
-header{
-     background-color: black;
-     font-family: Segoe UI Semibold;
-     text-align: center;
+header {
+    background-color: black;
+    font-family: Segoe UI Semibold;
+    text-align: center;
 }
 
-.logo{
+.logo {
     color: white;
     padding: 5px;
     align-items: center;
 }
 
-div a i{
+div a i {
     color: white;
 }
 
-.container{
+.container {
     width: 100%;
     height: auto;
     margin: 0%;
@@ -67,7 +67,7 @@ nav ul li a:hover {
     color: grey;
 }
 
-h1{
+h1 {
     font-family: Segoe UI Semibold;
     text-align: center;
     margin-top: 50px;
@@ -75,7 +75,7 @@ h1{
     font-size: 60px;
 }
 
-h2{
+h2 {
     font-family: ARIAL;
     text-align: center;
     font-weight: 50;
@@ -83,7 +83,7 @@ h2{
     word-spacing: 0%;
 }
 
-.iphone-section{
+.iphone-section {
     /* width:100%;
     background:#f5f5f7;
     overflow:hidden; */
@@ -94,7 +94,7 @@ h2{
 
 }
 
-.iphone-section img{
+.iphone-section img {
     /* width: 220%;
     position: absolute;
     left: 50%;
@@ -110,7 +110,7 @@ h2{
 }
 
 
-.hero-text-1{
+.hero-text-1 {
     position: absolute;
     top: 3px;
     left: 50%;
@@ -120,52 +120,52 @@ h2{
     z-index: 2;
 }
 
-.hero-text-1 h1{
-    font-size:56px;
-    font-family:"Segoe UI Semibold";
-    color:#1d1d1f;
-    margin-bottom:5px;
+.hero-text-1 h1 {
+    font-size: 56px;
+    font-family: "Segoe UI Semibold";
+    color: #1d1d1f;
+    margin-bottom: 5px;
 }
 
-.hero-text-1 h2{
-    font-size:28px;
-    font-weight:400;
-    color:#1d1d1f;
-    margin-bottom:18px;
+.hero-text-1 h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #1d1d1f;
+    margin-bottom: 18px;
 }
 
-.buttons{
-    display:flex;
-    justify-content:center;
-    gap:15px;
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
-.btn{
-    text-decoration:none;
-    padding:10px 22px;
-    border-radius:30px;
-    font-size:17px;
-    font-family:Arial;
+.btn {
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: Arial;
 }
 
-.blue{
-    background:#0071e3;
-    color:white;
+.blue {
+    background: #0071e3;
+    color: white;
 }
 
-.white{
-    border:1px solid #0071e3;
-    color:#0071e3;
-    background:white;
+.white {
+    border: 1px solid #0071e3;
+    color: #0071e3;
+    background: white;
 }
 
-.blue:hover{
-    background:#0077ed;
+.blue:hover {
+    background: #0077ed;
 }
 
-.white:hover{
-    background:#0071e3;
-    color:white;
+.white:hover {
+    background: #0071e3;
+    color: white;
 }
 
 /* .ipad-card{
@@ -184,47 +184,47 @@ h2{
     transform:translateX(-50%);
 } */
 
-.ipad-card{
+.macbook-card {
     width: 630px;
     height: 600px;
-    position:relative;
-    overflow:hidden;
-    background:linear-gradient(to bottom,#cfeeff,#ffffff);
-    margin:13px ;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #cfeeff, #ffffff);
+    margin: 13px;
 }
 
-.ipad-card img{
-    position:absolute;
-    width:207.3%;
-    left:50%;
+.macbook-card img {
+    position: absolute;
+    width: 207.3%;
+    left: 50%;
     right: none;
-    bottom:0;
-    transform:translateX(-50%);
-}
-.hero-text-2{
-    position:absolute;
-    top:3px;
-    left:50%;
-    transform:translateX(-50%);
-    text-align:center;
-    width:100%;
-    z-index:5;
+    bottom: 0;
+    transform: translateX(-50%);
 }
 
-.hero-text-2 h1{
-    font-size:42px;
-    font-family:"Segoe UI Semibold";
-    margin-bottom:8px;
+.hero-text-2 {
+    position: absolute;
+    top: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    z-index: 5;
 }
 
-.hero-text-2 h2{
-    font-size:22px;
-    font-weight:400;
-    margin-bottom:18px;
+.hero-text-2 h1 {
+    font-size: 42px;
+    font-family: "Segoe UI Semibold";
+    margin-bottom: 8px;
 }
 
-*
-{
-   padding: 0%;
-   margin: 0%; 
+.hero-text-2 h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
 }
