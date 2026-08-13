@@ -1,10 +1,10 @@
-/* header {
+ header {
     background-color: black;
     font-family: Segoe UI Semibold;
     text-align: center;
 }
 
-
+ 
 .logo {
     color: black;
     padding: 5px;
@@ -79,6 +79,7 @@ h2 {
     word-spacing: 0%;
 }
 
+
 .iphone-section {
     position: relative;
     height: 650px;
@@ -97,7 +98,7 @@ h2 {
 }
 
 
-.hero-text-1 {
+.product-text-1 {
     position: absolute;
     top: 3px;
     left: 50%;
@@ -107,14 +108,14 @@ h2 {
     z-index: 2;
 }
 
-.hero-text-1 h1 {
+.product-text-1 h1 {
     font-size: 56px;
     font-family: "Segoe UI Semibold";
     color: #1d1d1f;
     margin-bottom: 5px;
 }
 
-.hero-text-1 h2 {
+.product-text-1 h2 {
     font-size: 28px;
     font-weight: 400;
     color: #1d1d1f;
@@ -242,7 +243,7 @@ h2 {
     height: 600px;
 }
 
-.hero-text-3 {
+.product-text-3 {
     position: absolute;
     top: 3px;
     left: 50%;
@@ -253,13 +254,13 @@ h2 {
 }
 
 
-.hero-text-3 h1 {
+.product-text-3 h1 {
     font-size: 42px;
     font-family: "Segoe UI Semibold";
     margin-bottom: 8px;
 }
 
-.hero-text-3 h2 {
+.product-text-3 h2 {
     font-size: 22px;
     font-weight: 400;
     margin-bottom: 18px;
@@ -340,15 +341,52 @@ h2 {
     margin-bottom: 18px;
 }
 
+@media (max-width: 800px) {
+
+nav {
+    gap: 15px;
+}
+
+nav ul li a {
+    font-size: 10px;
+}
+
+.iphone-section {
+    height: 550px;
+}
+
+.product-text-1 h1 {
+    font-size: 44px;
+}
+
+.product-text-1 h2 {
+    font-size: 21px;
+}
+
+.college-section {
+    height: 500px;
+}
+
+.product-text-2 h1 {
+    font-size: 38px;
+}
+
+.product-grid {
+     grid-template-columns: 1fr;
+}
+
+}
+
 * {
     padding: 0%;
     margin: 0%;
-} */
+    box-sizing: border-box;
+} 
 
-* {
+/* * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 body {
@@ -356,37 +394,6 @@ body {
     background: white;
     color: #1d1d1f;
 }
-
-nav {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    background: rgba(250, 247, 247, 0.9);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
- nav ul {
-    list-style: none;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: rgba(10,10,10,0.8);
-    font-size: 12px;
-    transition: 0.25s;
-}
-
-        nav ul li a:hover {
-            color: #000;
-        }
 
 
 
@@ -684,4 +691,4 @@ nav ul li a {
      grid-template-columns: 1fr;
 }
 
-}
+} */
